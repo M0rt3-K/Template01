@@ -1158,11 +1158,11 @@ a {
       @media (max-width: 991px) {
         .pb_navbar.scrolled.pb_scrolled-light .navbar-nav {
           background: none;
-          border-radius: 0px;
+          border-radius: px;
           padding-left: 0rem !important;
           padding-right: 0rem !important; } }
       .pb_navbar.scrolled.pb_scrolled-light ul li a {
-        color: #212529 !important; }
+        color: #ffffff !important; }
         .pb_navbar.scrolled.pb_scrolled-light ul li a:hover, .pb_navbar.scrolled.pb_scrolled-light ul li a:active, .pb_navbar.scrolled.pb_scrolled-light ul li a:focus {
           color: #868e96 !important; }
         .pb_navbar.scrolled.pb_scrolled-light ul li a.active {
@@ -1319,6 +1319,14 @@ a {
 
 .text-center .heading-border-top.light:before {
   background: rgba(255, 255, 255, 0.7) !important; }
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
 
 .pb_section {
   padding: 9em 0;
