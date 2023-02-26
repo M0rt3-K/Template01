@@ -2935,7 +2935,7 @@ tbody.collapse.show {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0rem 0rem; }
+  padding: 0rem 1rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
