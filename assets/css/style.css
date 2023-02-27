@@ -778,7 +778,7 @@ input, select, textarea {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.4); }
     .form-control-outline.light:focus, .form-control-outline.light:active {
-      border-color: white; }
+      border-color: black; }
     .form-control-outline.light::-webkit-input-placeholder {
       color: rgba(255, 255, 255, 0.5); }
     .form-control-outline.light:-ms-input-placeholder {
@@ -1162,7 +1162,7 @@ a {
           padding-left: 0rem !important;
           padding-right: 0rem !important; } }
       .pb_navbar.scrolled.pb_scrolled-light ul li a {
-        color: #ffffff !important; }
+        color: black !important; }
         .pb_navbar.scrolled.pb_scrolled-light ul li a:hover, .pb_navbar.scrolled.pb_scrolled-light ul li a:active, .pb_navbar.scrolled.pb_scrolled-light ul li a:focus {
           color: #868e96 !important; }
         .pb_navbar.scrolled.pb_scrolled-light ul li a.active {
